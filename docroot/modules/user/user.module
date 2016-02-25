@@ -958,8 +958,6 @@ function user_search_access() {
  */
 function user_search_execute($keys = NULL, $conditions = NULL) {
   $find = array();
-  // Escape for LIKE matching.
-  $keys = db_like($keys);
   // Replace wildcards with MySQL/PostgreSQL wildcards.
   $keys = preg_replace('!\*+!', '%', $keys);
   $query = db_select('users')->extend('PagerDefault');
@@ -969,13 +967,13 @@ function user_search_execute($keys = NULL, $conditions = NULL) {
     // and they don't need to be restricted to only active users.
     $query->fields('users', array('mail'));
     $query->condition(db_or()->
-      condition('name', '%' . $keys . '%', 'LIKE')->
-      condition('mail', '%' . $keys . '%', 'LIKE'));
+      condition('name', '%' . db_like($keys) . '%', 'LIKE')->
+      condition('mail', '%' . db_like($keys) . '%', 'LIKE'));
   }
   else {
     // Regular users can only search via usernames, and we do not show them
     // blocked accounts.
-    $query->condition('name', '%' . $keys . '%', 'LIKE')
+    $query->condition('name', '%' . db_like($keys) . '%', 'LIKE')
       ->condition('status', 1);
   }
   $uids = $query
@@ -3665,7 +3663,12 @@ function user_form_process_password_confirm($element) {
   );
 
   $element['#attached']['js'][] = drupal_get_path('module', 'user') . '/user.js';
-  $element['#attached']['js'][] = array('data' => $js_settings, 'type' => 'setting');
+  // Ensure settings are only added once per page.
+  static $already_added = FALSE;
+  if (!$already_added) {
+    $already_added = TRUE;
+    $element['#attached']['js'][] = array('data' => $js_settings, 'type' => 'setting');
+  }
 
   return $element;
 }

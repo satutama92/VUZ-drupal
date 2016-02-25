@@ -1,0 +1,16 @@
+{
+  "name": "Drupal",
+  "version": "1.0.0",
+  "description": "CONTENTS OF THIS FILE ---------------------",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

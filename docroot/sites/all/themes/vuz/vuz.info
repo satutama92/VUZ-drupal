@@ -1,0 +1,82 @@
+name = vuz (CDN)
+description = Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Home custom regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[carousel]        	= 'Carousel'
+regions[topContent1]        = 'Top Content1'
+regions[topContent2]        = 'Top Content2'
+regions[topContent3]        = 'Top Content3'
+regions[topContent4]        = 'Top Content4'
+regions[blueContent1]       = 'Blue Content1'
+regions[blueContent2]       = 'Blue Content2'
+regions[blueContent3]       = 'Blue Content3'
+regions[blueContent4]       = 'Blue Content4'
+regions[whiteContent1]       = 'White Content1'
+regions[whiteContent2]       = 'White Content2'
+regions[whiteContent3]       = 'White Content3'
+regions[whiteContent4]       = 'White Content4'
+regions[footerContent1]       = 'footer Content1'
+regions[footerContent2]       = 'footer Content2'
+regions[footerContent3]       = 'footer Content3'
+regions[footerContent4]       = 'footer Content4'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Landing custom regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[pane1]       			= 'Pane1'
+regions[pane2]       			= 'Pane2'
+regions[blueContent]       		= 'Blue Content'
+regions[pageTitle]       		= 'Page Title'
+regions[pageContent1]       	= 'Page Content1'
+regions[pageContent2]       	= 'Page Content2'
+regions[pageContent3]       	= 'Page Content3'
+regions[pageContent4]       	= 'Page Content4'
+regions[pageContent5]       	= 'Page Content5'
+regions[pageContent6]       	= 'Page Content6'
+regions[pageContent7]       	= 'Page Content7'
+regions[pageContent8]       	= 'Page Content8'
+regions[pageContent9]       	= 'Page Content9'
+regions[pageContent10]       	= 'Page Content10'
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Contract custom regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[sideContent1]       	= 'Side Content1'
+regions[sideContent2]       	= 'Side Content2'
+regions[sideContent3]       	= 'Side Content3'
+regions[sideContent4]       	= 'Side Content4'
+regions[sellingPoint1]       	= 'Selling Point1'
+regions[sellingPoint2]       	= 'Selling Point2'
+regions[sellingPoint3]       	= 'Selling Point3'
+regions[sellingPoint4]       	= 'Selling Point4'
+
+regions[dropdown] 		       	= 'Dropdown Content'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
