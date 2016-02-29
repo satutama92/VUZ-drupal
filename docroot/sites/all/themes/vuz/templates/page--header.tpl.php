@@ -40,7 +40,7 @@
           </nav>    
         </div>
       <?php endif; ?>
-      <iframe class="loginBar collapse "width="100%" height="341" frameborder="0" scrolling="no" src="https://div.verzekeruzelf.nl/DIVPublic/logonbox.aspx?instanceid=1"></iframe>               
+      <iframe class="loginBar collapse "width="100%" height="341" frameborder="0" scrolling="no" src="https://intrapub.ontwikkeluzelf.nl/DIVPublic/logonbox.aspx?instanceid=1"></iframe>               
     </div>
   </div>
 
