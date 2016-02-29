@@ -74,7 +74,7 @@
  */
 ?>
 
-<?php include ".." . base_path() . path_to_theme() . "/templates/page--header.tpl.php"; ?>
+<?php include "./" . path_to_theme() . "/templates/page--header.tpl.php"; ?>
 
 <div class="main-container <?php print $container_class; ?>">
   <div class="row">
@@ -131,7 +131,7 @@
       </div>
     </section>
 
-    <?php include ".." . base_path() . path_to_theme() . "/templates/page--footer.tpl.php"; ?>
+    <?php include "./" . path_to_theme() . "/templates/page--footer.tpl.php"; ?>
 
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="col-sm-3" role="complementary">
