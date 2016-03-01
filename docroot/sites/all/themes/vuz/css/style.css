@@ -76,8 +76,14 @@ section.pink a:link {
   opacity: 1; }
 
 /*Navigation*/
+body.navbar-is-fixed-top {
+  padding-top: 50px !important; }
+
 header, #navbar, .navbar {
   background: url("../image/bgpattern.jpg"); }
+
+.navbar-right {
+  float: right; }
 
 .navbar.container, .navbar.container-fluid {
   margin-top: 0px; }
@@ -87,6 +93,13 @@ header, #navbar, .navbar {
 
 .dropdown-menu {
   background: url("../image/bgpattern_blue.jpg"); }
+
+.dropdown-menu.inloggen {
+  background: #226699;
+  width: 300px;
+  padding: 10px;
+  margin-top: 52px;
+  height: 370px; }
 
 .dropdown-menu li a {
   color: #FFF; }

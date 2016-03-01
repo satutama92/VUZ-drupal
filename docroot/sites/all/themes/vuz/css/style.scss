@@ -41,12 +41,16 @@ section.pink a:link										{ color:$white; }
 .btn:hover 												{ opacity: 1; }
 													
 /*Navigation*/
-
+body.navbar-is-fixed-top  								{ padding-top: 50px !important;}
 header , #navbar, .navbar								{ background: $greenBackground;}
+.navbar-right 											{ float: right;}
 .navbar.container, .navbar.container-fluid 				{ margin-top: 0px;}
 .navbar-default 										{ border: 0px;}
 .dropdown-menu 											{ background: $blueBackground;}
+.dropdown-menu.inloggen									{ background: #226699; width: 300px; padding: 10px;margin-top: 52px;height: 370px;}
 .dropdown-menu li a 									{ color: $white;}
+
+
 /*Footer*/
 .footer 												{ background: $pinkBackground; margin-top: 0px;}
 

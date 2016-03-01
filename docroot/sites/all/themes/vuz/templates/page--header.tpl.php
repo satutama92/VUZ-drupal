@@ -35,12 +35,19 @@
             <?php if (!empty($page['navigation'])): ?>
               <?php print render($page['navigation']); ?>
             <?php endif; ?>
-            
-            <button type="button" class="btn pink btn-default" data-toggle="collapse" data-target=".loginBar" role="button" style="float:right;margin:10px;">Inloggen</button>   
+            <ul class="menu nav navbar-nav navbar-right">
+              <li class="first leaf"><a href="/over-ons">Over ons</a></li>
+              <li class="leaf"><a href="/contact">Contact</a></li>
+              <li class="last expanded dropdown">
+                <button type="button" class="btn pink btn-default" data-target="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" role="button" style="float:right;margin:10px;">Inloggen</button>
+                <iframe class="dropdown-menu inloggen" width="100%" height="341" frameborder="0" scrolling="no" src="http://intrapub.ontwikkeluzelf.nl/DIVPublic/logonbox.aspx?instanceid=1"></iframe>  
+              </li>
+            </ul>
+              
           </nav>    
         </div>
       <?php endif; ?>
-      <iframe class="loginBar collapse "width="100%" height="341" frameborder="0" scrolling="no" src="http://intrapub.ontwikkeluzelf.nl/DIVPublic/logonbox.aspx?instanceid=1"></iframe>               
+                   
     </div>
   </div>
 
