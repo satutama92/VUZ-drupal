@@ -149,3 +149,7 @@
     </div>
   </footer>
 <?php endif; ?>
+<?php
+drupal_add_js('../sites/all/themes/vuz/js/pframe.host.app.js');
+drupal_add_js('../sites/all/themes/vuz/js/pframe.host.js');
+?>

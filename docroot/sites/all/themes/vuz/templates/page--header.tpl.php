@@ -40,10 +40,9 @@
               <li class="leaf"><a href="/contact">Contact</a></li>
               <li class="last expanded dropdown">
                 <button type="button" class="btn pink btn-default" data-target="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" role="button" style="float:right;margin:10px;">Inloggen</button>
-                <iframe class="dropdown-menu inloggen" width="100%" height="341" frameborder="0" scrolling="no" src="http://intrapub.ontwikkeluzelf.nl/DIVPublic/logonbox.aspx?instanceid=1"></iframe>  
+                <iframe class="dropdown-menu inloggen" width="100%" height="341" frameborder="0" scrolling="no" src="https://intrapub.ontwikkeluzelf.nl/DIVPublic/logonbox.aspx?instanceid=1"></iframe>  
               </li>
             </ul>
-              
           </nav>    
         </div>
       <?php endif; ?>
@@ -57,7 +56,7 @@
       <source media="(max-width: 480px)" srcset="sites/all/themes/vuz/image/logo-verzekeruzelf-mobile.png">
       <source media="(max-width: 978x)" srcset="sites/all/themes/vuz/image/logo-verzekeruzelf-normal.png">
       <source media="(max-width: 979px)" srcset="sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png">
-      <img class="img-responsive" src="sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png" alt="Logo Verzekeruzelf">
+      <img class="img-responsive" src="../sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png" alt="Logo Verzekeruzelf">
     </picture>
   </div>
 </header>
