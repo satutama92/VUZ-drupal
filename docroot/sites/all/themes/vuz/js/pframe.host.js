@@ -34,7 +34,6 @@ PFHost = {
         'http://pvverzekeruzelf.accepteeruzelf.nl', 'https://pvverzekeruzelf.accepteeruzelf.nl',
         'http://premievergelijker.verzekeruzelf.nl', 'https://premievergelijker.verzekeruzelf.nl',
         'http://magnum.intrasurance.nl', 'https://magnum.intrasurance.nl',
-        'http://verzekeruzelf2016dg35atmgxc.devcloud.acquia-sites.com', 'https://verzekeruzelf2016dg35atmgxc.devcloud.acquia-sites.com'
         'http://localhost:48543', 'https://localhost:48543'
 
     ], // allowed origin(s) from the hosted page
