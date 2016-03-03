@@ -82,6 +82,9 @@ body.navbar-is-fixed-top {
 header, #navbar, .navbar {
   background: url("../image/bgpattern.jpg"); }
 
+.container .img-responsive {
+  margin: 0px !important; }
+
 .navbar-right {
   float: right; }
 
@@ -215,6 +218,13 @@ section.footer li {
   padding-right: 5px; }
 
 /*Contact*/
+/*Dossier*/
+.divIframe {
+  margin-top: -105px; }
+
+.dossier {
+  min-width: 900px; }
+
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

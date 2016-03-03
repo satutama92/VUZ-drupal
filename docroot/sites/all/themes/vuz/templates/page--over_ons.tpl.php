@@ -74,7 +74,15 @@
  */
 ?>
 <?php include "./" . path_to_theme() . "/templates/page--header.tpl.php"; ?>
-
+<div class="greenBackground">
+    <picture class="logo">
+      <source media="(max-width: 480px)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-mobile.png">
+      <source media="(max-width: 978x)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-normal.png">
+      <source media="(max-width: 979px)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png">
+      <img class="img-responsive" src="../sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png" alt="Logo Verzekeruzelf">
+    </picture>
+  </div>
+</header>
 <div class="main-container <?php print $container_class; ?>">
    
     <?php if (!empty($page['sidebar_first'])): ?>

@@ -75,6 +75,15 @@
 ?>
 
 <?php include "./" . path_to_theme() . "/templates/page--header.tpl.php"; ?>
+<div class="greenBackground container">
+    <picture class="logo">
+      <source media="(max-width: 480px)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-mobile.png">
+      <source media="(max-width: 978x)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-normal.png">
+      <source media="(max-width: 979px)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png">
+      <img class="img-responsive" src="../sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png" alt="Logo Verzekeruzelf">
+    </picture>
+  </div>
+</header>
 
 <div class="main-container <?php print $container_class; ?>">
   <div class="row">
@@ -106,7 +115,7 @@
 
     <section>
       <div class="container">  
-        <div class="col-xs-12 col-md-8"><?php print render($page['content']); ?></div>
+        <div class="col-xs-12 col-md-8 divIframe"><?php print render($page['content']); ?></div>
         <?php if (!empty($page['sideContent1'])): ?>
           <div class="col-xs-3 col-md-4"><?php print render($page['sideContent1']); ?></div>
         <?php endif;?>
@@ -149,7 +158,3 @@
     </div>
   </footer>
 <?php endif; ?>
-<?php
-drupal_add_js('../sites/all/themes/vuz/js/pframe.host.app.js');
-drupal_add_js('../sites/all/themes/vuz/js/pframe.host.js');
-?>

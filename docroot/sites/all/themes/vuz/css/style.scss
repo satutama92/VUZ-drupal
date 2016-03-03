@@ -43,6 +43,7 @@ section.pink a:link										{ color:$white; }
 /*Navigation*/
 body.navbar-is-fixed-top  								{ padding-top: 50px !important;}
 header , #navbar, .navbar								{ background: $greenBackground;}
+.container .img-responsive 								{ margin: 0px !important;}
 .navbar-right 											{ float: right;}
 .navbar.container, .navbar.container-fluid 				{ margin-top: 0px;}
 .navbar-default 										{ border: 0px;}
@@ -84,6 +85,9 @@ section.footer li 										{ font-size: $normalFont; line-height: $lineHeight ;
 /*Contact*/
 
 
+/*Dossier*/
+.divIframe 												{ margin-top: -105px;}
+.dossier 												{ min-width: 900px;}
 @media screen and (max-width: 480px) {
 }
 
