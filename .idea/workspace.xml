@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644babc8-84c6-4de8-b56b-d7bffe710c4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/modules/toolbar/toolbar.css" afterPath="$PROJECT_DIR$/docroot/modules/toolbar/toolbar.css" />
-    </list>
+    <list default="true" id="644babc8-84c6-4de8-b56b-d7bffe710c4d" name="Default" comment="" />
     <ignored path="verzekeruzelf2016-dev.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="toolbar.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docroot/modules/toolbar/toolbar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="544">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -344,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docroot/modules/toolbar/toolbar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="544">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="15" />
           <folding />
         </state>
       </provider>
