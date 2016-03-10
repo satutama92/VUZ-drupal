@@ -9,9 +9,9 @@
           </a>
         <?php endif; ?>
 
-  <!--       <?php if (!empty($site_name)): ?>
-          <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">Verzekeruzelf</a>
-        <?php endif; ?> -->
+<!--        --><?php //if (!empty($site_name)): ?>
+<!--          <a class="name navbar-brand" href="--><?php //print $front_page; ?><!--" title="--><?php //print t('Home'); ?><!--">Verzekeruzelf</a>-->
+<!--        --><?php //endif; ?><!-- -->
 
         <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
