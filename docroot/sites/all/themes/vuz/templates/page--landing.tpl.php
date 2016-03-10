@@ -114,36 +114,56 @@
 
     <section>
       <div class="container">  
-        <div class="col-xs-12"><h1 class="blue"><?php print $title; ?></h1></div>
+        <div class="col-xs-12"><h1 class="blue"><?php print render($page['pageTitle']); ?></h1></div>
         <div class="col-xs-12 col-sm-6"><?php print render($page['content']); ?></div>
-        <?php if (!empty($page['pageContent2'])): ?>
-          <div class="col-xs-12 col-sm-6"><?php print render($page['pageContent2']); ?></div>
+        <?php if (!empty($page['2ndColumnContent'])): ?>
+          <div class="col-xs-12 col-sm-6"><?php print render($page['2ndColumnContent']); ?></div>
         <?php endif;?>
         <?php if (!empty($page['pageContent3'])): ?>
-          <div class="col-xs-12 col-sm-6"><?php print render($page['pageContent3']); ?></div>
+          <div class="col-xs-12"><?php print render($page['pageContent3']); ?></div>
         <?php endif;?>
         <?php if (!empty($page['pageContent4'])): ?>
-          <div class="col-xs-12"><?php print render($page['pageContent4']); ?></div>
+          <div class="col-xs-12 col-sm-6"><?php print render($page['pageContent4']); ?></div>
         <?php endif;?>
         <?php if (!empty($page['pageContent5'])): ?>
           <div class="col-xs-12 col-sm-6"><?php print render($page['pageContent5']); ?></div>
         <?php endif;?>
         <?php if (!empty($page['pageContent6'])): ?>
-          <div class="col-xs-12 col-sm-6"><?php print render($page['pageContent6']); ?></div>
+          <div class="col-xs-12"><?php print render($page['pageContent6']); ?></div>
         <?php endif;?>
       </div>
     </section>
 
     <section class="blue">
       <div class=" container">
-        <?php if (!empty($page['blueContent'])): ?>
-          <div class="col-xs-12"><?php print render($page['blueContent']); ?></div>
+        <?php if (!empty($page['blueContentTitle']) ): ?>
+          <div class="col-xs-12"><?php print render($page['blueContentTitle']); ?></div>
         <?php endif; ?> 
-        <?php if (!empty($page['blueContent1'])): ?>
-          <div class="col-xs-12 col-md-4 infoColumn"><?php print render($page['blueContent1']); ?></div>
-          <div class="col-xs-12 col-md-4 infoColumn"><?php print render($page['blueContent2']); ?></div>
-          <div class="col-xs-12 col-md-4 infoColumn"><?php print render($page['blueContent3']); ?></div>
-        <?php endif; ?>  
+        <?php if (!empty($page['productTabelColumn1']) && empty($page['productTabelColumn2'])): ?>
+          <div class="col-xs-12 col-md-12 infoColumn"><?php print render($page['productTabelColumn1']); ?></div>
+        <?php endif; ?>
+        <?php if (!empty($page['productTabelColumn2']) && empty($page['productTabelColumn3'])): ?>
+          <div class="col-xs-12 col-sm-6 infoColumn"><?php print render($page['productTabelColumn1']); ?></div>
+          <div class="col-xs-12 col-sm-6 infoColumn"><?php print render($page['productTabelColumn2']); ?></div>
+        <?php endif; ?>
+        <?php if (!empty($page['productTabelColumn3']) && empty($page['productTabelColumn4'])): ?>
+          <div class="col-xs-12 col-sm-4 infoColumn"><?php print render($page['productTabelColumn1']); ?></div>
+          <div class="col-xs-12 col-sm-4 infoColumn"><?php print render($page['productTabelColumn2']); ?></div>
+          <div class="col-xs-12 col-sm-4 infoColumn"><?php print render($page['productTabelColumn3']); ?></div>
+        <?php endif; ?>
+        <?php if (!empty($page['productTabelColumn4']) && empty($page['productTabelColumn5'])): ?>
+          <div class="col-xs-12 col-sm-6 col-md-3 infoColumn"><?php print render($page['productTabelColumn1']); ?></div>
+          <div class="col-xs-12 col-sm-6 col-md-3 infoColumn"><?php print render($page['productTabelColumn2']); ?></div>
+          <div class="col-xs-12 col-sm-6 col-md-3 infoColumn"><?php print render($page['productTabelColumn3']); ?></div>
+          <div class="col-xs-12 col-sm-6 col-md-3 infoColumn"><?php print render($page['productTabelColumn4']); ?></div>
+        <?php endif; ?>
+        <?php if (!empty($page['productTabelColumn5'])): ?>
+          <div class="col-xs-12 col-md-4 infoColumn"><?php print render($page['productTabelColumn1']); ?></div>
+          <div class="col-xs-12 col-md-4 infoColumn"><?php print render($page['productTabelColumn2']); ?></div>
+          <div class="col-xs-12 col-md-4 infoColumn"><?php print render($page['productTabelColumn3']); ?></div>
+          <div class="col-xs-12 col-md-4 infoColumn"><?php print render($page['productTabelColumn4']); ?></div>
+          <div class="col-xs-12 col-md-4 infoColumn"><?php print render($page['productTabelColumn5']); ?></div>
+        <?php endif; ?> 
         <picture class="hidden-mobile" alt="Verzekeruzelf">
           <img class="img-responsive center" src="sites/all/themes/vuz/image/verzekering_premie.png" alt="premie">
         </picture>
@@ -152,16 +172,16 @@
 
     <section class="white">
       <div class="container">
-        <?php if (!empty($page['pane1'])): ?>
-          <div class="col-xs-12 col-sm-6"><?php print render($page['pane1']); ?></div>
+        <?php if (!empty($page['contentBottomColumn1'])): ?>
+          <div class="col-xs-12 col-sm-6"><?php print render($page['contentBottomColumn1']); ?></div>
         <?php endif; ?> 
-        <?php if (!empty($page['pane2'])): ?>
-          <div class="col-xs-12 col-sm-6"><?php print render($page['pane2']); ?></div>
+        <?php if (!empty($page['contentBottomColumn2'])): ?>
+          <div class="col-xs-12 col-sm-6"><?php print render($page['contentBottomColumn2']); ?></div>
         <?php endif; ?>        
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent1']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent2']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent3']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent4']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget1']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget2']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget3']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget4']); ?></div>
       </div>
     </section>
 
@@ -183,3 +203,13 @@
     </div>
   </footer>
 <?php endif; ?>
+
+
+<?php
+drupal_add_js('../sites/all/themes/vuz/js/modernizr.custom.min.js');
+drupal_add_js('../sites/all/themes/vuz/js/jquery.colorbox.min.js');
+drupal_add_js('../sites/all/themes/vuz/js/trigger.js');
+drupal_add_js('../sites/all/themes/vuz/js/landing.resolver.js');
+
+drupal_add_css($directory.'../sites/all/themes/vuz/css/colorbox.min.css', array('group' => CSS_THEME, 'every_page' => true));
+?>

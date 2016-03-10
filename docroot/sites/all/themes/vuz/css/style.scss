@@ -1,11 +1,13 @@
 
 /* Global */
 .center 												{ text-align: center; margin: 0 auto;}
+
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
 .col-lg-15 												{ position: relative; min-height: 1px; padding-right: 10px; padding-left: 10px;}
-.col-xs-15												{ width: 20%; float: left; }
+.col-xs-15 												{ width: 20%; float: left;}
+
 /* Global anchor and font-colors */
 $pink : #e18; 
 $blue : #47A; 
@@ -62,6 +64,7 @@ header , #navbar, .navbar								{ background: $greenBackground;}
 .topFour 												{ min-height: 285px;}
 section.green,
 .greenBackground										{ background: $greenBackground; color: $white;  padding: 0px 0 35px 0;}
+.opzeggen.greenBackground 								{ margin-top: -50px;}
 section.blue 											{ background: $blueBackground; color: $white; margin-top: 30px;}
 section.contact,
 section.blue.contract 									{ padding: 0px 0 35px 0;}
@@ -83,11 +86,276 @@ section.footer li 										{ font-size: $normalFont; line-height: $lineHeight ;
 .infoColumn .btn 										{ display: block; margin:4px auto 14px auto; width: 150px; padding-left: 5px; padding-right: 5px;}
 
 /*Contact*/
-
+.sidePane 												{ margin-top: 113px;}
+.sidePane .content 										{ padding: 0 5px;}
+.sidePaneContent										{ background-color: #ADF; border-radius: 10px; margin: 5px 0; padding: 0px 15px 15px 15px}
 
 /*Dossier*/
-.divIframe 												{ margin-top: -105px;}
 .dossier 												{ min-width: 900px;}
+
+/*Insurance Vergelijker*/
+.insurance-logo img 									{ border: solid 1px #a0a0a0; border-radius: 5px; }
+.insurance-logo											{ margin-bottom:12px; }
+
+/*Insurance Overview*/
+.insuranceOverview .region-insurancepane1,
+.insuranceOverview .region-insurancepane2,
+.insuranceOverview .region-insurancepane3,	
+.insuranceOverview .region-insurancepane4,
+.insuranceOverview .region-insurancepane5,
+.insuranceOverview .region-insurancepane6,
+.insuranceOverview .region-insurancepane7,
+.insuranceOverview .region-insurancepane8,
+.insuranceOverview .region-insurancepane9,
+.insuranceOverview .region-insurancepane10 				{ min-height: 360px;}
+
+
+/*Handleiding*/
+.glossary #begrippenlijst       						{ color:#004785; line-height:20px; width:960px; font-size:14px; border:1px solid #aaa; padding:0px 10px 10px 0px; border-radius:7px; background: url("images/GlossaryDivider.png") #f1f1f1 repeat-y 225px 0px; height:400px; margin:40px auto;}
+.glossary #begrippenlijst input 						{ background:url("images/search.png") #fff no-repeat 175px 3px;border:1px solid #aaa; border-radius:5px; height:25px; padding:2px 30px 2px 7px; margin-left:10px; width:200px; margin-bottom:10px;}
+.glossary #begrippenlijst input:focus 					{ border:1px solid #eb2690; outline:none; }
+.glossary #lijst                						{ list-style-type:none; margin:0px; padding:0px; line-height:22px; height: 350px; overflow-y:auto; overflow-x:hidden; width:225px; float:left; }
+.glossary #lijst li             						{ margin:0; padding:0; height:auto; line-height: 18px; }
+.glossary #lijst span,
+.glossary #lijst a              						{ text-decoration:none; color:#004785; padding: 3px 10px 3px 10px; margin-right:10px; width:240px; display:inline-block; overflow:hidden;}
+.glossary #lijst span:hover,
+.glossary #lijst span:active,
+.glossary #lijst span:focus     						{ text-decoration:none; color:#fff; background-color:#004785; }
+.glossary .definition          							{ display:block; margin-top:-12px; width:700px; position:relative; z-index:20; float:right; padding:5px 20px 0px 0px; overflow-y:auto; overflow-x:hidden; height:350px; }
+.glossary .definitionContent    						{ display:none; }
+.glossary .filterform           						{ background:url("images/searchDivider.png") no-repeat 0px 35px; width:190px;}
+.glossary #search               						{ margin-top:10px; width:220px; padding:0px; float: none; margin-left: 0;}
+.glossary .definition h2        						{ color:#e53693; margin-top:5px; padding:0px; }
+
+.handleiding .pageHeader								{ color: #d06; display: block; float: left; font-family: "PT Sans Regular",Arial,Verdana;  font-weight: normal; line-height: 1.1em; margin-bottom: 15px; font-size: 24px; clear: both;}
+.handleiding .glossaryList								{ color: #000; float: left; height: auto; line-height: 160%; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 100%}
+.handleiding .navigator									{ width:27%; float: left; margin-bottom: 0; margin-left: 2px; margin-right: 2px; margin-top: 0; overflow-x: hidden; overflow-y: auto;}
+.handleiding .navSearch									{ margin-top: 10px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 220px;}
+.handleiding .navContent								{ margin-bottom: 1px; margin-left: 1px; margin-right: 1px; margin-top: 1px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0;}
+.handleiding .navigator h3.navSectionTitle				{ color: #de007a; font-size: 16px; font-weight: bold; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 10px; text-decoration: none;}
+.handleiding .navContent h3.navIntro a 					{ color: #003082; text-decoration: none;}
+.navContent a:link,
+.navContent a:visited									{ color: #000; text-decoration: none; display: block; margin-left: 10px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; width: 95%; font-size: 16px;}
+.handleiding .navItems									{ text-decoration: none; list-style-type: none; margin-bottom: 1px; margin-left: 1px; margin-right: 1px; margin-top: 1px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0;}
+.handleiding ol,
+.handleiding ul 										{ list-style-image: none; list-style-position: outside; text-decoration: none;}
+.handleiding .navigator ul li							{ line-height: 1.8em; margin-bottom: 0.3em; text-decoration: none;}
+.handleiding .glossaryDefinition h3.header 				{ color: #de007a; font-weight: bold; width: 100%; float: left; font-size: 16px; margin-bottom: 5px; margin-top: 20px; padding-left: 5px;}
+
+.handleiding .infoBlock									{ font-family: "PT Sans Regular",Arial,Verdana; font-size:16px; line-height: 1.4em; clear: both; display: block; margin-bottom: 8px; margin-left: 0; margin-right: 0; margin-top: 8px; }
+.handleiding .glossaryDefinition strong					{ color: #003082;}
+.handleiding .glossaryDefinition li 					{ font-size: 16px; line-height: 16px; list-style-type: none; margin-left: 25px;}
+
+.glossaryList {
+    float: left;
+    height: auto;
+    line-height: 160%;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 100%;
+}
+.glossaryList input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: -moz-use-text-color;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 5px;
+    width: 160px;
+}
+.glossaryList input:focus {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: -moz-use-text-color;
+    border-top-style: solid;
+    border-top-width: 1px;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: medium;
+}
+.glossaryDefinition {
+ -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #f5f5f5;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-color: #8d8d8d;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    position: relative;
+    width: 70%;
+    z-index: 20;
+}
+.glossaryList {
+    color: #000;
+}
+.glossaryList input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #fff;
+    background-image: url("images/search.png");
+    background-origin: padding-box;
+    background-position: 175px 5px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border-color: #aaa;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+}
+.glossaryList input:focus {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: #eb2690;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-color: #eb2690;
+    border-style: solid;
+    border-width: 1px;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: medium;
+}
+.navContent a:link, .navContent a:visited {
+    color: #000;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration: none;
+    text-decoration: solid;
+}
+.navContent a:hover {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #de007a;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #fff;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration: none;
+    text-decoration: solid;
+}
+.navigator {
+    width: 27%;
+}
+.glossaryDefinition b {
+    color: #003082;
+}
+.definitionContent {
+    display: none;
+}
+.navigator h3.navSectionTitle {
+    color: #de007a;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navContent h3.navIntro a {
+    color: #003082;
+}
+
+
+
+
 @media screen and (max-width: 480px) {
 }
 
@@ -96,19 +364,44 @@ section.footer li 										{ font-size: $normalFont; line-height: $lineHeight ;
 
 
 @media screen and (max-width: 767px) {
+.sidePane 												{ margin-top: 0px;}
+.insuranceOverview .region-insurancepane1,
+.insuranceOverview .region-insurancepane2,
+.insuranceOverview .region-insurancepane3,	
+.insuranceOverview .region-insurancepane4,
+.insuranceOverview .region-insurancepane5,
+.insuranceOverview .region-insurancepane6,
+.insuranceOverview .region-insurancepane7,
+.insuranceOverview .region-insurancepane8,
+.insuranceOverview .region-insurancepane9,
+.insuranceOverview .region-insurancepane10 				{ min-height: 1px;}
+
 }
 
 @media screen and (min-width: 768px) {
-
+.col-sm-15 												{ width: 20% !important; float: left;}
 }
 
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
+.blueWidget 											{ min-height: 250px;}
 }
 
 @media screen and (max-width: 991px) {
+.insuranceOverview .region-insurancepane1 h2,
+.insuranceOverview .region-insurancepane2 h2,
+.insuranceOverview .region-insurancepane3 h2,	
+.insuranceOverview .region-insurancepane4 h2,
+.insuranceOverview .region-insurancepane5 h2,
+.insuranceOverview .region-insurancepane6 h2,
+.insuranceOverview .region-insurancepane7 h2,
+.insuranceOverview .region-insurancepane8 h2,
+.insuranceOverview .region-insurancepane9 h2,
+.insuranceOverview .region-insurancepane10 h2 	{ font-size: 18px;}
 }
 
 @media (min-width: 992px) {
+.col-md-15 												{ width: 20% !important; float: left;}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1023px) {
@@ -121,6 +414,7 @@ section.footer li 										{ font-size: $normalFont; line-height: $lineHeight ;
 }
 
 @media screen and (min-width: 1200px) {
+.col-lg-15 												{ width: 20% !important; float: left; }
 }
 
 @media screen and (min-width: 1366px) {

@@ -76,10 +76,10 @@
 <?php include "./" . path_to_theme() . "/templates/page--header.tpl.php"; ?>
 <div class="greenBackground">
     <picture class="logo">
-      <source media="(max-width: 480px)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-mobile.png">
-      <source media="(max-width: 978x)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-normal.png">
-      <source media="(max-width: 979px)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png">
-      <img class="img-responsive" src="../sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png" alt="Logo Verzekeruzelf">
+      <source media="(max-width: 480px)" srcset="sites/all/themes/vuz/image/logo-verzekeruzelf-mobile.png">
+      <source media="(max-width: 978x)" srcset="sites/all/themes/vuz/image/logo-verzekeruzelf-normal.png">
+      <source media="(max-width: 979px)" srcset="sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png">
+      <img class="img-responsive" src="sites/all/themes/vuz/image/logo-verzekeruzelf-wide.png" alt="Logo Verzekeruzelf">
     </picture>
   </div>
 </header>
@@ -113,37 +113,37 @@
     </section>
 
     <section>
-      <div class="container">  
-        <div class="col-xs-12"><h1 class="blue"><?php print render($page['content']); ?></h1></div>
-        <?php if (!empty($page['pageContent1'])): ?>
-          <div class="col-sm-12"><?php print render($page['pageContent1']); ?></div>
+      <div class="container insuranceOverview">  
+        <div class="col-xs-12"><?php print render($page['content']); ?></div>
+        <?php if (!empty($page['insurancePane1'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane1']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent2'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent2']); ?></div>
+        <?php if (!empty($page['insurancePane2'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane2']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent3'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent3']); ?></div>
+        <?php if (!empty($page['insurancePane3'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane3']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent4'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent4']); ?></div>
+        <?php if (!empty($page['insurancePane4'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane4']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent5'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent5']); ?></div>
+        <?php if (!empty($page['insurancePane5'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane5']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent6'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent6']); ?></div>
+        <?php if (!empty($page['insurancePane6'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane6']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent7'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent7']); ?></div>
+        <?php if (!empty($page['insurancePane7'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane7']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent8'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent8']); ?></div>
+        <?php if (!empty($page['insurancePane8'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane8']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent9'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent9']); ?></div>
+        <?php if (!empty($page['insurancePane9'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane9']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent10'])): ?>
-          <div class="col-sm-15 col-md-15"><?php print render($page['pageContent10']); ?></div>
+        <?php if (!empty($page['insurancePane10'])): ?>
+          <div class="col-xs-12 col-sm-4 col-md-15"><?php print render($page['insurancePane10']); ?></div>
         <?php endif;?>
       </div>
     </section>
@@ -165,10 +165,10 @@
         <?php if (!empty($page['pane2'])): ?>
           <div class="col-xs-12 col-sm-6"><?php print render($page['pane2']); ?></div>
         <?php endif; ?>        
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent1']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent2']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent3']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent4']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget1']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget2']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget3']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget4']); ?></div>
       </div>
     </section>
 

@@ -73,8 +73,8 @@
  * @ingroup templates
  */
 ?>
-<?php include "./" . path_to_theme() . "/templates/page--header.tpl.php"; ?>
 
+<?php include "./" . path_to_theme() . "/templates/page--header.tpl.php"; ?>
 <div class="greenBackground">
     <picture class="logo">
       <source media="(max-width: 480px)" srcset="../sites/all/themes/vuz/image/logo-verzekeruzelf-mobile.png">
@@ -117,23 +117,22 @@
     </section>
 
     <section>
-      
       <div class="container center">
         <div class="col-xs-12 center pink"><h1><?php print render($page['content']); ?></h1></div>
-        <div class="col-xs-12 col-sm-6 col-md-3 topFour"><?php print render($page['topContent1']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3 topFour"><?php print render($page['topContent2']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3 topFour"><?php print render($page['topContent3']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3 topFour"><?php print render($page['topContent4']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 topFour"><?php print render($page['homeContentWidget1']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 topFour"><?php print render($page['homeContentWidget2']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 topFour"><?php print render($page['homeContentWidget3']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 topFour"><?php print render($page['homeContentWidget4']); ?></div>
       </div>
     </section>
 
     <section class="blue">
       <div class="container">
-        <div class="col-xs-12 center pink"><h2 class="white">Van verzekerd naar zelf verzekerd</h2></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['blueContent1']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['blueContent2']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['blueContent3']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['blueContent4']); ?></div>
+        <div class="col-xs-12 white"><?php print render($page['blueContentTitle']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget1']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget2']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget3']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget4']); ?></div>
       </div>
       <picture class="hidden-mobile" alt="Verzekeruzelf">
         <!-- low-res, default -->
@@ -149,10 +148,10 @@
 
     <section class="white">
       <div class="container ">
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent1']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent2']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent3']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent4']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget1']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget2']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget3']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContentWidget4']); ?></div>
       </div>
     </section>
 

@@ -35,7 +35,6 @@ PFHost = {
         'http://premievergelijker.verzekeruzelf.nl', 'https://premievergelijker.verzekeruzelf.nl',
         'http://magnum.intrasurance.nl', 'https://magnum.intrasurance.nl',
         'http://localhost:48543', 'https://localhost:48543'
-
     ], // allowed origin(s) from the hosted page
 
     currentIframeSelector: 'frmContent', //must be ID of the iframe

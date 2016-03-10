@@ -22,61 +22,87 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Home custom regions
 ;;;;;;;;;;;;;;;;;;;;;
-regions[carousel]        	= 'Carousel'
-regions[topContent1]        = 'Top Content1'
-regions[topContent2]        = 'Top Content2'
-regions[topContent3]        = 'Top Content3'
-regions[topContent4]        = 'Top Content4'
-regions[blueContent1]       = 'Blue Content1'
-regions[blueContent2]       = 'Blue Content2'
-regions[blueContent3]       = 'Blue Content3'
-regions[blueContent4]       = 'Blue Content4'
-regions[whiteContent1]       = 'White Content1'
-regions[whiteContent2]       = 'White Content2'
-regions[whiteContent3]       = 'White Content3'
-regions[whiteContent4]       = 'White Content4'
-regions[footerContent1]       = 'footer Content1'
-regions[footerContent2]       = 'footer Content2'
-regions[footerContent3]       = 'footer Content3'
-regions[footerContent4]       = 'footer Content4'
-
+regions[carousel]        			= 'Carousel'
+regions[homeContentWidget1]        	= 'Home Content Widget1'
+regions[homeContentWidget2]        	= 'Home Content Widget2'
+regions[homeContentWidget3]        	= 'Home Content Widget3'
+regions[homeContentWidget4]        	= 'Home Content Widget4'
+regions[blueContentTitle]  			= 'Blue ContentTitle'
+regions[blueContent]       			= 'Blue Content'
+regions[blueContentWidget1]       	= 'Blue Content Widget1'
+regions[blueContentWidget2]       	= 'Blue Content Widget2'
+regions[blueContentWidget3]       	= 'Blue Content Widget3'
+regions[blueContentWidget4]       	= 'Blue Content Widget4'
+regions[whiteContentWidget1]       	= 'White Content Widget 1'
+regions[whiteContentWidget2]       	= 'White Content Widget 2'
+regions[whiteContentWidget3]       	= 'White Content Widget 3'
+regions[whiteContentWidget4]       	= 'White Content Widget 4'
 
 ;;;;;;;;;;;;;;;;;;;;;
-;; Landing custom regions
+;; Over Ons custom regions
 ;;;;;;;;;;;;;;;;;;;;;
-regions[pane1]       			= 'Pane1'
-regions[pane2]       			= 'Pane2'
-regions[blueContent]       		= 'Blue Content'
-regions[pageTitle]       		= 'Page Title'
-regions[pageContent1]       	= 'Page Content1'
-regions[pageContent2]       	= 'Page Content2'
-regions[pageContent3]       	= 'Page Content3'
-regions[pageContent4]       	= 'Page Content4'
-regions[pageContent5]       	= 'Page Content5'
-regions[pageContent6]       	= 'Page Content6'
-regions[pageContent7]       	= 'Page Content7'
-regions[pageContent8]       	= 'Page Content8'
-regions[pageContent9]       	= 'Page Content9'
-regions[pageContent10]       	= 'Page Content10'
-
+regions[rondleiding]       					= 'Over ons rondleiding bedrijf'
+regions[overOnsWhiteContentLeft1]       	= 'Over ons white content left 1'
+regions[overOnsWhiteContentRight1]       	= 'Over ons white content right 1'
+regions[overOnsBlueContentLeft]    		   	= 'Over ons blue content left'
+regions[overOnsBlueContentRight]       		= 'Over ons blue content right'
+regions[overOnsWhiteContentLeft2]       	= 'Over ons white content left 2'
+regions[overOnsWhiteContentRight2]       	= 'Over ons white content right 2'
 
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Contract custom regions
 ;;;;;;;;;;;;;;;;;;;;;
-regions[sideContent1]       	= 'Side Content1'
-regions[sideContent2]       	= 'Side Content2'
-regions[sideContent3]       	= 'Side Content3'
-regions[sideContent4]       	= 'Side Content4'
-regions[sellingPoint1]       	= 'Selling Point1'
-regions[sellingPoint2]       	= 'Selling Point2'
-regions[sellingPoint3]       	= 'Selling Point3'
-regions[sellingPoint4]       	= 'Selling Point4'
+regions[sidePaneRow1]       	= 'Side Pane Row1'
+regions[sidePaneRow2]       	= 'Side Pane Row2'
+regions[sidePaneRow3]       	= 'Side Pane Row3'
+regions[sidePaneRow4]       	= 'Side Pane Row4'
+regions[sidePaneRow5]       	= 'Side Pane Row5'
+regions[sidePaneWhite]       	= 'Side Pane White'
 
+;;;;;;;;;;;;;;;;;;;;;
+;; Landing custom regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[pageTitle]       		= 'Page Title'
+regions[pageContent1]       	= 'Page Content1'
+regions[2ndColumnContent]      	= '2ndColumnContent'
+regions[pageContent3]       	= 'Page Content3'
+regions[pageContent4]       	= 'Page Content4'
+regions[pageContent5]       	= 'Page Content5'
+regions[pageContent6]       	= 'Page Content6'
+regions[productTabelColumn1]    = 'Product tabel column 1'
+regions[productTabelColumn2]    = 'Product tabel column 2'
+regions[productTabelColumn3]    = 'Product tabel column 3'
+regions[productTabelColumn4]    = 'Product tabel column 4'
+regions[productTabelColumn5]    = 'Product tabel column 5'
+regions[contentBottomColumn1]   = 'Content Bottom Column 1'
+regions[contentBottomColumn2]   = 'Content Bottom Column 2'
 regions[dropdown] 		       	= 'Dropdown Content'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Insurance custom regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[insurancePane1]       	= 'Insurance Pane1'
+regions[insurancePane2]       	= 'Insurance Pane2'
+regions[insurancePane3]       	= 'Insurance Pane3'
+regions[insurancePane4]       	= 'Insurance Pane4'
+regions[insurancePane5]       	= 'Insurance Pane5'
+regions[insurancePane6]       	= 'Insurance Pane6'
+regions[insurancePane7]       	= 'Insurance Pane7'
+regions[insurancePane8]       	= 'Insurance Pane8'
+regions[insurancePane9]       	= 'Insurance Pane9'
+regions[insurancePane10]       	= 'Insurance Pane10'
+
+
+regions[footerContent1]       = 'footer Content1'
+regions[footerContent2]       = 'footer Content2'
+regions[footerContent3]       = 'footer Content3'
+regions[footerContent4]       = 'footer Content4'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+stylesheets[screen][] = css/colorbox.min.css

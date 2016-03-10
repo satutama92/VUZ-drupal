@@ -116,50 +116,50 @@
       <div class="container">
       <div class="row">
           <div class="col-xs-12 col-sm-8"><?php print render($page['content']); ?></div>
-        <?php if (!empty($page['pageContent2'])): ?>
-          <div class="hidden-xs col-sm-4"><?php print render($page['pageContent2']); ?></div>
+        <?php if (!empty($page['2ndColumnContent'])): ?>
+          <div class="hidden-xs col-sm-4"><?php print render($page['2ndColumnContent']); ?></div>
         <?php endif;?>
       </div>
     </div>
     </section>
 
     <section class="googleTour hidden-xs">
-      <?php if (!empty($page['pageContent3'])): ?>
+      <?php if (!empty($page['rondleiding'])): ?>
         <div class="container">
-          <div class="col-xs-12"><?php print render($page['pageContent3']); ?></div>
+          <div class="col-xs-12"><?php print render($page['rondleiding']); ?></div>
         </div>      
       <?php endif;?>
     </section>
 
     <section class="white">
       <div class="container blue">
-        <?php if (!empty($page['pageContent5'])): ?>
-          <div class="hidden-xs col-sm-4"><?php print render($page['pageContent5']); ?></div>
+        <?php if (!empty($page['overOnsWhiteContentLeft1'])): ?>
+          <div class="hidden-xs col-sm-4"><?php print render($page['overOnsWhiteContentLeft1']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent6'])): ?>
-          <div class="col-xs-12 col-sm-8"><?php print render($page['pageContent6']); ?></div>
+        <?php if (!empty($page['overOnsWhiteContentRight1'])): ?>
+          <div class="col-xs-12 col-sm-8"><?php print render($page['overOnsWhiteContentRight1']); ?></div>
         <?php endif;?>
       </div>
     </section>
 
         <section class="blue">
       <div class="container ">
-        <?php if (!empty($page['pageContent7'])): ?>
-          <div class="col-xs-12 col-sm-8"><?php print render($page['pageContent7']); ?></div>
+        <?php if (!empty($page['overOnsBlueContentLeft'])): ?>
+          <div class="col-xs-12 col-sm-8"><?php print render($page['overOnsBlueContentLeft']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent8'])): ?>
-          <div class="hidden-xs col-sm-4"><?php print render($page['pageContent8']); ?></div>
+        <?php if (!empty($page['overOnsBlueContentRight'])): ?>
+          <div class="hidden-xs col-sm-4"><?php print render($page['overOnsBlueContentRight']); ?></div>
         <?php endif;?>
       </div>
     </section>
 
         <section class="white">
       <div class="container ">
-        <?php if (!empty($page['pageContent9'])): ?>
-          <div class="hidden-xs col-sm-4"><?php print render($page['pageContent9']); ?></div>
+        <?php if (!empty($page['overOnsWhiteContentLeft2'])): ?>
+          <div class="hidden-xs col-sm-4"><?php print render($page['overOnsWhiteContentLeft2']); ?></div>
         <?php endif;?>
-        <?php if (!empty($page['pageContent10'])): ?>
-          <div class="col-xs-12 col-sm-8"><?php print render($page['pageContent10']); ?></div>
+        <?php if (!empty($page['overOnsWhiteContentRight2'])): ?>
+          <div class="col-xs-12 col-sm-8"><?php print render($page['overOnsWhiteContentRight2']); ?></div>
         <?php endif;?>
       </div>
     </section>

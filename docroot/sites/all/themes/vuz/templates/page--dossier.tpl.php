@@ -117,31 +117,15 @@
     <section class="contact">
       <div class="container">
         <div class="col-xs-12 divIframe"><?php print render($page['content']); ?></div>
-        <div class="col-xs-6 col-sm-4"><?php print render($page['topContent2']); ?></div>
-        <div class="col-xs-6 col-sm-4"><?php print render($page['topContent3']); ?></div>
-        <div class="col-xs-12 col-sm-6"><?php print render($page['topContent4']); ?></div>
       </div>
     </section>
 
     <section class="blue">
-      <picture class="hidden-mobile" alt="Verzekeruzelf">
-        <!-- low-res, default -->
-        <source src="../sites/all/themes/vuz/image/landscape-small.png">
-        <!-- med-res -->
-        <source src="../sites/all/themes/vuz/image/landscape-medium.png" media="(min-width: 400px)">
-        <!-- high-res -->
-        <source src="../sites/all/themes/vuz/image/landscape.png" media="(min-width: 800px)">
-        <!-- Fallback content -->
-        <img class="img-responsive" src="../sites/all/themes/vuz/image/landscape.png" alt="landscape">
-      </picture>
-    </section>
-
-    <section class="white">
       <div class="container ">
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent1']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent2']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent3']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['whiteContent4']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget1']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget2']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget3']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget4']); ?></div>
       </div>
     </section>
 

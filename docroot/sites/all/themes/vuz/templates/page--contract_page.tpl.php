@@ -115,28 +115,36 @@
 
     <section>
       <div class="container">  
-        <div class="col-xs-12 col-md-8 divIframe"><?php print render($page['content']); ?></div>
-        <?php if (!empty($page['sideContent1'])): ?>
-          <div class="col-xs-3 col-md-4"><?php print render($page['sideContent1']); ?></div>
+        <div class="col-xs-12 col-md-9 divIframe"><?php print render($page['content']); ?></div>
+        <div class="col-xs-12 col-md-3 sidePane">
+        <?php if (!empty($page['sidePaneRow1'])): ?>
+          <div class="col-xs-12 col-sm-6 col-md-12 content"><div class="sidePaneContent"><?php print render($page['sidePaneRow1']); ?></div></div>
         <?php endif;?>
-        <?php if (!empty($page['sideContent1'])): ?>
-          <div class="col-xs-3 col-md-4"><?php print render($page['sideContent2']); ?></div>
+        <?php if (!empty($page['sidePaneRow2'])): ?>
+          <div class="col-xs-12 col-sm-6 col-md-12 content"><div class="sidePaneContent"><?php print render($page['sidePaneRow2']); ?></div></div>
         <?php endif;?>
-        <?php if (!empty($page['sideContent1'])): ?>
-          <div class="col-xs-3 col-md-4"><?php print render($page['sideContent3']); ?></div>
+        <?php if (!empty($page['sidePaneRow3'])): ?>
+          <div class="col-xs-12 col-sm-6 col-md-12 content"><div class="sidePaneContent"><?php print render($page['sidePaneRow3']); ?></div></div>
         <?php endif;?>
-        <?php if (!empty($page['sideContent1'])): ?>
-          <div class="col-xs-3 col-md-4"><?php print render($page['sideContent4']); ?></div>
+        <?php if (!empty($page['sidePaneRow4'])): ?>
+          <div class="col-xs-12 col-sm-6 col-md-12 content"><div class="sidePaneContent"><?php print render($page['sidePaneRow4']); ?></div></div>
         <?php endif;?>
+        <?php if (!empty($page['sidePaneRow5'])): ?>
+          <div class="col-xs-12 col-sm-6 col-md-12 content"><div class="sidePaneContent"><?php print render($page['sidePaneRow5']); ?></div></div>
+        <?php endif;?>
+        <?php if (!empty($page['sidePaneWhite'])): ?>
+          <div class="col-xs-12 col-sm-6 col-md-12 content"><div class="sidePaneContent"><?php print render($page['sidePaneWhite']); ?></div></div>
+        <?php endif;?>
+      </div>
       </div>
     </section>
 
     <section class="blue contract">
       <div class="container ">
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['sellingPoint1']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['sellingPoint2']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['sellingPoint3']); ?></div>
-        <div class="col-xs-12 col-sm-6 col-md-3"><?php print render($page['sellingPoint4']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget1']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget2']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget3']); ?></div>
+        <div class="col-xs-12 col-sm-6 col-md-3 blueWidget"><?php print render($page['blueContentWidget4']); ?></div>
       </div>
     </section>
 
@@ -158,3 +166,7 @@
     </div>
   </footer>
 <?php endif; ?>
+<?php
+drupal_add_js('../sites/all/themes/vuz/js/pframe.host.app.js');
+drupal_add_js('../sites/all/themes/vuz/js/pframe.host.js');
+?>
