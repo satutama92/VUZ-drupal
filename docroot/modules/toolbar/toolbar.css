@@ -21,7 +21,6 @@ body.toolbar-drawer {
   padding: 0;
   text-align: left; /* LTR */
   vertical-align: baseline;
-  height: 64px;
 }
 
 /**
@@ -46,6 +45,7 @@ body.toolbar-drawer {
   filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000, direction='180', strength='10');
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000, direction='180', strength='10')";
   z-index: 600;
+  height: 64px;
 }
 #toolbar div.collapsed {
   display: none;
